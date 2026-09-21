@@ -1,0 +1,87 @@
+.home{
+   
+   background-image: url("public/background.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: center;
+   background-position-y: bottom;
+
+   z-index: 11;
+}
+
+.username{
+  text-align: left;
+}
+
+.acmenu{
+  padding: 1px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.acmenu button{
+  margin-top: 2vh;
+  margin-right: 1vw;
+  margin-left: 1vw;
+
+  width: 12vw;
+  height: 5vh;
+
+  background-color: transparent;
+  font-size: 1vw;
+}
+
+.contact{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-color: transparent;
+}
+
+.contact:hover{
+  border-color: white;
+  border-style: solid;
+}
+
+.hire{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-color: transparent;
+}
+
+.hire:hover{
+  border-color: white;
+  border-style: solid;
+}
+
+.skills{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-color: transparent;
+}
+
+.skills:hover{
+  border-color: white;
+  border-style: solid;
+}
+
+.projet{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-color: transparent;
+}
+
+.projet:hover{
+  border-color: white;
+  border-style: solid;
+}
+
+.acTitle{
+  margin-top: 26vh;
+  font-size: 9vw;
+}
+

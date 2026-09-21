@@ -1,0 +1,10 @@
+.projets{
+   
+   background-image: url("public/background2.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: center;
+   background-position-y: bottom;
+
+   z-index: 11;
+}

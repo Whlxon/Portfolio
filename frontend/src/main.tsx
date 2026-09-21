@@ -6,7 +6,8 @@ import { Suspense } from 'react';
 import './index.css'
 
 import App from './App.tsx'
-import { Accueil } from './Pages/accueil.tsx';
+import { Home } from './Pages/home/home.tsx';
+import { Project } from './Pages/project/project.tsx';
 
 const router = createBrowserRouter([
   {
@@ -15,11 +16,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Accueil/>
+        element: <Home/>
       },
       {
-        path: '/selection',
-        element: null
+        path: '/project',
+        element: <Project/>
       }
     ]
   }
