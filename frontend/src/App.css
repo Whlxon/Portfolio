@@ -5,8 +5,6 @@
    background-size:cover;
    background-position: center;
    background-position-y: bottom;
-
-   z-index: 11;
 }
 
 .username{
@@ -28,20 +26,22 @@
   width: 12vw;
   height: 5vh;
 
-  border: 1px;
-  border-style: dashed;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: white;
 
   background-color: transparent;
-  border-color: transparent;
   font-size: 1vw;
 }
 
-.projet button:hover{
-  
+
+.projet:hover{
+  border-top: 3px;
 }
 
 .acTitle{
   margin-top: 26vh;
-  font-size: 9vw;
+  font-size: 7vw;
 }
 

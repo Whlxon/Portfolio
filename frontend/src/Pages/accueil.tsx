@@ -7,7 +7,6 @@ export function Accueil() {
 
         <div className="acmenu">
           <table>
-            
             <th>
               <button className="projet">Projets </button>
               
