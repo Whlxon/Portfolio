@@ -1,0 +1,47 @@
+.accueil{
+   
+   background-image: url("public/background.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: center;
+   background-position-y: bottom;
+}
+
+.username{
+  text-align: left;
+}
+
+.acmenu{
+  padding: 1px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.acmenu button{
+  margin-top: 2vh;
+  margin-right: 1vw;
+  margin-left: 1vw;
+
+  width: 12vw;
+  height: 5vh;
+
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: white;
+
+  background-color: transparent;
+  font-size: 1vw;
+}
+
+
+.projet:hover{
+  border-top: 3px;
+}
+
+.acTitle{
+  margin-top: 26vh;
+  font-size: 7vw;
+}
+
