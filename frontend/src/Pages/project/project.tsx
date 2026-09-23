@@ -5,7 +5,7 @@ export function Project() {
         <>
             <body className="projets">
 
-                <h1 className="">Mon Portfolio</h1>
+                <h1 className="proTitle">Mes Projets</h1>
                 
             </body>
         </>
