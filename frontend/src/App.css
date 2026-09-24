@@ -1,51 +1,89 @@
 
 /* ------------------- accueil ---------------------- */
 .home{
-   
-   background-image: url("public/background.jpg");
-   background-repeat:no-repeat;
-   background-size:cover;
-   background-position: center;
+    margin: 0;
+
+    background-image: url("../public/background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 
 .acTitle{
-  margin-top: 26vh;
-  font-size: 7vw;
+    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
+    margin-top: 26vh;
+    font-size: 7vw;
+}
+
+.acSubTitle{
+    margin-top: 12vh;
+    font-size: xx-large;
+    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
 }
 
 /* ------------------- projet ---------------------- */
 
 .projets{
-   background-color: black;
-   background-image: url("public/background2.jpg");
-   background-size:contain;
-   background-repeat:no-repeat;
-   background-attachment: scroll;
-   background-position: center;
-}
+    margin: 0;
+    min-height: 100vh;
 
-.proTitle{
-  margin-top: 26vh;
-  font-size: 7vw;
+    background-color: black;
+    background-image: url("../public/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: too center;
+    background-attachment: scroll; 
+    background-size: 100% auto; 
 }
 
 .test{
-  margin-top: 2903px;
+    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
+    margin-top: 420vh;
 }
+
+.proTitle{
+    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
+    margin-top: 26vh;
+    font-size: 4vw;
+}
+
+.pro1{
+    margin-top: 52vh;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.proSubTitle {
+    margin-left: 20vw;
+    text-align: left;
+    font-size: xx-large;
+    color: black;
+    
+
+}
+
 
 /* ------------------- notAvailable ---------------------- */
 
 .notAv{
-   background-color: black;
-   background-image: url("public/notAvailable.jpg");
-   background-repeat:no-repeat;
-   background-attachment:fixed;
-   background-position: center;
+    margin: 0;
+    min-height: 100vh;
+
+    background-color: black;
+    background-image: url("../public/notAvailable.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: scroll; 
+    background-size: 90% auto;
 }
 
 .notTitle{
-  margin-top: 26vh;
-  font-size: 3vw;
+    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
+    margin-top: 26vh;
+    font-size: 3vw;
+}
+
+.notSubtitle{
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.678);
 }
 
 /* ------------------- menu ---------------------- */

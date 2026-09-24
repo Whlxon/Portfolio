@@ -7,12 +7,13 @@ export function Project() {
 
                 <h1 className="proTitle">Mes Projets</h1>
 
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <h2 className="test">test</h2>
+                <div className="pro1">
+                    <img className="" src="" alt="" />
+                    <div className="proSubTitle">TicTacToe</div>
+                    <div className="description">Jeux du </div>
+                </div>
+
+                <h2 className="test">.</h2>
                 
             </body>
         </>

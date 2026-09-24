@@ -9,7 +9,8 @@ export function Home() {
 
         
 
-        <h1 className="acTitle">Mon Portfolio</h1>
+        <h1 className="acTitle">Portfolio</h1>
+        <h2 className="acSubTitle">Technologie De l'Informatique Orientée Application Web</h2>
       </body>
     </>
   )
