@@ -1,102 +1,189 @@
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 /* ------------------- accueil ---------------------- */
 .home{
-    margin: 0;
-
-    background-image: url("../public/background.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center;
+   margin-top: 0;
+   background-image: url("public/background.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: top center;
+   height: 1080px;
 }
 
 .acTitle{
-    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
+    text-align: center;
+    text-shadow: 4px 7px 12px black;
     margin-top: 26vh;
     font-size: 7vw;
 }
 
+.acCredit{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 4px 5px 5px black;
+}
+
 .acSubTitle{
-    margin-top: 12vh;
-    font-size: xx-large;
-    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
+    text-align: center;
+    margin-top: 18vh;
+    text-shadow: 4px 5px 5px black;
 }
 
 /* ------------------- projet ---------------------- */
 
 .projets{
-    margin: 0;
+    background-image: url("public/background2.png");
     min-height: 100vh;
-
-    background-color: black;
-    background-image: url("../public/background2.jpg");
+    background-size: 100% 100%;   /* étire sans jamais rogner */
     background-repeat: no-repeat;
-    background-position: too center;
-    background-attachment: scroll; 
-    background-size: 100% auto; 
+    height: 1920px;
 }
 
-.test{
-    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
-    margin-top: 420vh;
+.projets h1:hover{
+    cursor:default;
 }
 
 .proTitle{
-    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
+    text-align: center;
+    text-shadow: 4px 7px 12px black;
     margin-top: 26vh;
-    font-size: 4vw;
+    font-size: 7vw;
 }
 
-.pro1{
-    margin-top: 52vh;
-    padding: 4px;
-    border-radius: 20px;
-}
+.cards{
+    background-color: #fdfcfca1;
+    border-color: rgb(255, 255, 255);
 
-.proSubTitle {
-    margin-left: 20vw;
-    text-align: left;
-    font-size: xx-large;
-    color: black;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    text-align: center;
+    border: 0.5px;
+    padding: 20px ;
+    border-style: solid;
+    width: 75%;
     
+    border-radius: 20px ;
+
+    box-shadow: 4px 7px 10px black;
 
 }
 
+.cardBelgacai{
+    background-color: #fdfcfca1;
+    border-color: rgb(255, 255, 255);
+
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    text-align: center;
+    border: 0.5px;
+    padding: 20px ;
+    border-style: solid;
+    width: 75%;
+    
+    border-radius: 20px;
+
+    box-shadow: 4px 7px 10px black;
+}
+
+.cardBelgacai:hover{
+    cursor: grab;
+    scale: 101%;
+    box-shadow: 2px 5px 14px black;
+}
+
+.cardBelgacai img{
+    border-radius: 20px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards:hover{
+    cursor: grab;
+    scale: 101%;
+    box-shadow: 2px 5px 14px black;
+}
+
+.cards img{
+    border-radius: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardsSubTitle{
+    margin-top: 2vh;
+    font-size: x-large;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cardsDescription{
+    color: rgb(61, 61, 61);
+    text-align: center;
+}
+
+/* ------------------- Skills ---------------------- */
+
+.skills{
+    background-image: url("public/background3.jpg");
+    min-height: 100vh;
+    background-size: 100% 100%;   /* étire sans jamais rogner */
+    background-repeat: no-repeat;
+    height: 4000px;
+}
 
 /* ------------------- notAvailable ---------------------- */
 
 .notAv{
-    margin: 0;
     min-height: 100vh;
-
-    background-color: black;
-    background-image: url("../public/notAvailable.jpg");
+    background-size: 100% 100%;   /* étire sans jamais rogner */
     background-repeat: no-repeat;
-    background-position: bottom center;
-    background-attachment: scroll; 
-    background-size: 90% auto;
+    height: 1920px;
+    background-color: black;
+    background-image: url("public/notAvailable.jpg");
+    min-height: 100vh;
+    background-size: 100% 100%;   /* étire sans jamais rogner */
+    background-repeat: no-repeat;
+    height: 1080px;
 }
 
 .notTitle{
-    text-shadow: 3px 7px 12px rgba(0, 0, 0, 0.678);
-    margin-top: 26vh;
+    text-shadow: 4px 7px 10px black;
+    margin-top: 35vh;
+    text-align: center;
     font-size: 3vw;
 }
 
 .notSubtitle{
-    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.678);
+    text-align: center;
 }
 
 /* ------------------- menu ---------------------- */
+
 
 .logoB{
     border: 0;
     border-radius: 100%;
     background-color: transparent;
-    width: 7vw;
-    height: 7vw;
+    width: 10vh;
+    height: 10vh;
 
-    margin-left: 13px;
-    margin-top: 13px;
+    position: fixed;
+
+    margin-left: 2vw;
+    margin-top: 0.5vw;
 }
 
 .logoB:hover{
@@ -108,16 +195,12 @@
     height: 100%;
 }
 
-.contLogo{
-
-    position: fixed;
-}
-
 .acmenu{
+    top: 0;
+
     display: flex;
     justify-content: center; /* Centre horizontalement les enfants */
 
-    
     margin-left: auto;
     margin-right: auto;
 }
@@ -159,14 +242,14 @@
     border-style: solid;
 }
 
-.skills{
+.skillB{
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
     border-color: transparent;
 }
 
-.skills:hover{
+.skillB:hover{
     border-color: white;
     border-style: solid;
 }

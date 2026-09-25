@@ -7,8 +7,8 @@ import './index.css'
 
 import App from './App.tsx'
 import { Home } from './Pages/home/home.tsx';
-import { Project } from './Pages/project/project.tsx';
 import { NotAvailable } from './Pages/notAvailable/nAvailable.tsx';
+import { Skills } from './Pages/skills/skills.tsx';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +20,8 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: '/project',
-        element: <Project/>
+        path: '/skills',
+        element: <Skills/>
       },
       {
         path: 'notAvailable',
