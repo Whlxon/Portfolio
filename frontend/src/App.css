@@ -66,7 +66,7 @@ text-decoration: none;
 }
 
 .cards{
-    background-color: #fdfcfca1;
+    background-color: #747474a1;
     border-color: rgb(255, 255, 255);
 
     margin-top: 20vh;
@@ -86,26 +86,6 @@ text-decoration: none;
 
 }
 
-.cardBelgacai{
-    background-color: #fdfcfca1;
-    border-color: rgb(255, 255, 255);
-
-    margin-top: 20vh;
-    margin-left: auto;
-    margin-right: auto;
-
-
-    text-align: center;
-    border: 0.5px;
-    padding: 20px ;
-    border-style: solid;
-    width: 75%;
-    
-    border-radius: 20px;
-
-    box-shadow: 4px 7px 10px black;
-}
-
 .cards:hover{
     cursor: grab;
     scale: 101%;
@@ -122,13 +102,13 @@ text-decoration: none;
 .cardsSubTitle{
     margin-top: 2vh;
     font-size: x-large;
-    color: rgb(58, 58, 58);
+    color: rgb(236, 235, 235);
     text-align: center;
     text-decoration: underline;
 }
 
 .cardsDescription{
-    color: rgb(61, 61, 61);
+    color: rgb(231, 231, 231);
     text-align: center;
 }
 
@@ -151,7 +131,7 @@ text-decoration: none;
 .skillsSubTitle{
     text-align: center;
     margin-top: 6vh;
-    text-shadow: 4px 7px 12px black;
+    text-shadow: 4px 7px 10px black;
 }
 
 /* ------------------- notAvailable ---------------------- */

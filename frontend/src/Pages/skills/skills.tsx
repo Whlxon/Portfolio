@@ -18,8 +18,8 @@ export function Skills(){
                     </table>
                 </div>
 
-                <h1 className="skillsTitle">There is no limit</h1>
-                <h2 className="skillsSubTitle">When your imagination take control of your projects</h2>
+                <h1 className="skillsTitle">My Skills</h1>
+                <h2 className="skillsSubTitle">There is no limit when your imagination take control of your projects</h2>
 
             </div>
         </>
