@@ -18,7 +18,7 @@ export function Home() {
   return (
     <>
       <div className="home" id="ho">
-        <button className="logoB" onClick={()=>{navigate('/')}}><img className="logo" src="public/logo.png" alt="" /></button>
+        <button className="logoB" onClick={()=>{navigate('/')}}><img className="logo" src="/logo/logo.png" alt="" /></button>
         <div className="acmenu">
           <table>
             <td>
@@ -44,7 +44,7 @@ export function Home() {
           <tr>
             <td>
               <div className="cards">
-                <img className="" src="../../public/tictactoe.png" alt="" />
+                <img className="" src="/tictactoe.png" alt="" />
                 <div className="cardsSubTitle">TicTacToe</div>
                 <div className="cardsDescription">Language: Python</div>
               </div>
@@ -52,7 +52,7 @@ export function Home() {
 
             <td>
               <div className="cards">
-                <img className="" src="../../public/GeoKnow.png" alt="" />
+                <img className="" src="/GeoKnow.png" alt="" />
                 <div className="cardsSubTitle">GeoKnow</div>
                 <div className="cardsDescription">Language: TypeScript</div>
               </div>
@@ -60,7 +60,7 @@ export function Home() {
 
             <td>
               <div className="cards">
-                <img className="" src="../../public/belgacais.png" alt="" />
+                <img className="" src="/belgacais.png" alt="" />
                 <div className="cardsSubTitle">Belgacai (Co-Creator)</div>
                 <div className="cardsDescription">Language: HTML/PHP</div>
               </div>
@@ -70,7 +70,7 @@ export function Home() {
           <tr>
             <td>
               <div className="cards">
-                <img className="" src="../../public/motizou.png" alt="" />
+                <img className="" src="/motizou.png" alt="" />
                 <div className="cardsSubTitle">Motizou</div>
                 <div className="cardsDescription">Language: TypeScript</div>
               </div>
@@ -78,7 +78,7 @@ export function Home() {
 
             <td>
               <div className="cards">
-                <img className="" src="../../public/Enigmatic.png" alt="" />
+                <img className="" src="/Enigmatic.png" alt="" />
                 <div className="cardsSubTitle">Enigmatic-Game</div>
                 <div className="cardsDescription">Language: Python</div>
               </div>
@@ -86,7 +86,7 @@ export function Home() {
 
             <td>
               <div className="cards">
-                <img className="" src="../../public/protfolio.png" alt="" />
+                <img className="" src="/protfolio.png" alt="" />
                 <div className="cardsSubTitle">My Portfolio</div>
                 <div className="cardsDescription">Language: TypeScript</div>
               </div>
