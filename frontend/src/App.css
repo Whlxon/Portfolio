@@ -1,10 +1,9 @@
 
 a{
-    color: white;
-    text-decoration: none;
+    color: rgb(243, 183, 255);
 }
 
-/* ------------------- accueil ---------------------- */
+/* ------------------- home ---------------------- */
 .home{
    margin-top: 0;
    background-image: url("public/background.jpg");
@@ -18,22 +17,23 @@ a{
     text-align: center;
     text-shadow: 4px 7px 12px black;
     margin-top: 26vh;
-    font-size: 7vw;
+    font-size: 120px;
 }
 
 .acCredit{
     color: rgb(255, 255, 255);
     text-align: center;
+    margin-top: 6vh;
     text-shadow: 4px 5px 5px black;
 }
 
 .acSubTitle{
     text-align: center;
-    margin-top: 18vh;
+    margin-top: 10vh;
     text-shadow: 4px 5px 5px black;
 }
 
-/* ------------------- projet ---------------------- */
+/* ------------------- project ---------------------- */
 
 .projets{
     background-image: url("public/background2.png");
@@ -47,11 +47,22 @@ a{
     cursor:default;
 }
 
+.rickRoll{
+text-decoration: none;
+}
+
 .proTitle{
     text-align: center;
     text-shadow: 4px 7px 12px black;
     margin-top: 26vh;
     font-size: 7vw;
+    text-decoration: none;
+}
+
+.proSubTitle{
+    margin-top: 10vh;
+    text-align: center;
+    text-shadow: 4px 7px 12px black;
 }
 
 .cards{
@@ -95,19 +106,6 @@ a{
     box-shadow: 4px 7px 10px black;
 }
 
-.cardBelgacai:hover{
-    cursor: grab;
-    scale: 101%;
-    box-shadow: 2px 5px 14px black;
-}
-
-.cardBelgacai img{
-    border-radius: 20px;
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .cards:hover{
     cursor: grab;
     scale: 101%;
@@ -142,6 +140,18 @@ a{
     background-size: 100% 100%;   /* étire sans jamais rogner */
     background-repeat: no-repeat;
     height: 4000px;
+}
+
+.skillsTitle{
+    text-align: center;
+    margin-top: 20vh;
+    text-shadow: 4px 7px 12px black;
+}
+
+.skillsSubTitle{
+    text-align: center;
+    margin-top: 6vh;
+    text-shadow: 4px 7px 12px black;
 }
 
 /* ------------------- notAvailable ---------------------- */

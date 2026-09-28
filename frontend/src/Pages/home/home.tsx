@@ -8,7 +8,7 @@ export function Home() {
 
   const scrollVersPro= () => {
     // Recherche l'élément par son ID HTML
-    const element = document.getElementById('mon-id-html');
+    const element = document.getElementById('pro');
     if (element) {
       // Défilement fluide vers l'élément
       element.scrollIntoView({ behavior: 'smooth' });
@@ -31,13 +31,14 @@ export function Home() {
         </div>
 
         <h1 className="acTitle">Portfolio</h1>
-        <div className="acCredit">Credit to Faded_Gallery on unsplash for illustrations</div>
+        <div className="acCredit">Credit to Faded_Gallery on <a href="">unsplash</a> for illustrations</div>
         <h2 className="acSubTitle">Informatic Technology Web Application Oriented</h2>
       </div>
 
       <div className="projets" id="pro" >
 
-        <a href="https://www.youtube.com/watch?v=QDia3e12czc"><h1 className="proTitle" >My Projects</h1></a>
+        <a href="https://www.youtube.com/watch?v=QDia3e12czc" className="rickRoll"><h1 className="proTitle" >My Projects</h1></a>
+        <h2 className="proSubTitle">Imagine, going behond your skills to product something you didn't expect to build</h2>
 
         <table>
           <tr>
