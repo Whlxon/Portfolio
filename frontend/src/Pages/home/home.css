@@ -1,0 +1,35 @@
+/* ------------------- home ---------------------- */
+.home{
+   margin-top: 0;
+   background-image: url("/background.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: top center;
+   height: 1080px;
+}
+
+.acTitle{
+    text-align: center;
+    text-shadow: 4px 7px 12px black;
+    margin-top: 26vh;
+    font-size: 7vi;
+}
+
+.acCredit{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 6vh;
+    text-shadow: 4px 5px 5px black;
+}
+
+.acsubCredit{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 4px 5px 5px black;
+}
+
+.acSubTitle{
+    text-align: center;
+    margin-top: 10vh;
+    text-shadow: 4px 5px 5px black;
+}

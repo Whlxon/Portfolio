@@ -9,6 +9,7 @@ import App from './App.tsx'
 import { Home } from './Pages/home/home.tsx';
 import { NotAvailable } from './Pages/notAvailable/nAvailable.tsx';
 import { Skills } from './Pages/skills/skills.tsx';
+import { Hiring } from './Pages/hiring/hiring.tsx';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,11 @@ const router = createBrowserRouter([
         element: <Skills/>
       },
       {
-        path: 'notAvailable',
+        path: '/hiring',
+        element: <Hiring/>
+      },
+      {
+        path: '/notAvailable',
         element: <NotAvailable/>
       }
     ]

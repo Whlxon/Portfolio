@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
-import "../../App.css"
+import "./projet.css";
+import "./home.css";
 
 
 export function Home() {
@@ -24,14 +25,15 @@ export function Home() {
             <td>
               <button className="projet" onClick={()=>{scrollVersPro()}}>Projects</button>
               <button className="skillB" onClick={()=>{navigate('/skills')}}>Skills</button>
-              <button className="hire" onClick={()=>{navigate('/notAvailable')}}>Hiring ? </button>
+              <button className="hire" onClick={()=>{navigate('/hiring')}}>Hiring ? </button>
               <button className="contact" onClick={()=>{navigate('/notAvailable')}}>Contact me</button>
             </td>          
           </table>
         </div>
 
         <h1 className="acTitle">Portfolio</h1>
-        <div className="acCredit">Credit to Faded_Gallery on <a href="">unsplash</a> for illustrations</div>
+        <div className="acCredit">Credit to Faded_Gallery on <a href="https://unsplash.com/fr/@faded_gallery">unsplash</a> for illustrations</div>
+        <div className="acsubCredit">& to Stanislav on <a href="https://unsplash.com/fr/@venmer">unsplash</a></div>
         <h2 className="acSubTitle">Informatic Technology Web Application Oriented</h2>
       </div>
 

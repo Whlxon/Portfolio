@@ -1,0 +1,25 @@
+/* ------------------- notAvailable ---------------------- */
+
+.notAv{
+    min-height: 100vh;
+    background-size: 100% 100%;   /* étire sans jamais rogner */
+    background-repeat: no-repeat;
+    height: 1920px;
+    background-color: black;
+    background-image: url("/notAvailable.jpg");
+    min-height: 100vh;
+    background-size: 100% 100%;   /* étire sans jamais rogner */
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+.notTitle{
+    text-shadow: 4px 7px 10px black;
+    margin-top: 35vh;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.notSubtitle{
+    text-align: center;
+}

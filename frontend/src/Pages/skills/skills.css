@@ -1,0 +1,81 @@
+/* ------------------- Skills ---------------------- */
+
+.skills{
+    background-image: url("/background3.jpg");
+    min-height: 100vh;
+    background-size: 100% 100%;   /* étire sans jamais rogner */
+    background-repeat: no-repeat;
+    height: 3000px;
+}
+
+.skillsTitle{
+    text-align: center;
+    margin-top: 20vh;
+    text-shadow: 4px 7px 12px black;
+}
+
+.skillsSubTitle{
+    text-align: center;
+    margin-top: 6vh;
+    text-shadow: 4px 7px 10px black;
+}
+
+.skillsFram{
+    text-decoration: underline;
+    margin-top: 15vh;
+    margin-left: 15vw;
+    color: white;
+    text-shadow: 4px 7px 10px black;
+}
+
+.tableSkill{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cardskill{
+    background-color: rgba(22, 97, 97, 0.678);
+    border-color: rgb(255, 255, 255);
+
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    border: 0.5px;
+    padding: 20px;
+    border-radius: 20px ;
+    height: auto;
+    width: 15vw;
+
+    text-align: center;
+    border-color: aqua;
+    border-style: solid;    
+
+    box-shadow: 4px 7px 12px rgba(11, 48, 48, 0.678);
+}
+
+.cardskill img{
+    background-color: rgb(49, 49, 49);
+    border-radius: 15px;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 1px;
+    padding: 18px;
+    width: 65px;
+}
+
+.cardskill td{
+    border: 1;
+}
+
+.cardskillSubTitle{
+    font-size: xx-large;
+    color: white;
+    text-align: left;
+}
+
+.cardskillDescription{
+    text-align: left;
+    margin-top: 12px;
+    color: white;
+}

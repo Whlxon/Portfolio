@@ -1,0 +1,78 @@
+/* ------------------- project ---------------------- */
+
+.projets{
+    background-image: url("/background2.png");
+    min-height: 100vh;
+    background-size: 100% 100%;   /* étire sans jamais rogner */
+    background-repeat: no-repeat;
+    height: 1920px;
+}
+
+.projets h1:hover{
+    cursor:default;
+}
+
+.rickRoll{
+text-decoration: none;
+}
+
+.proTitle{
+    text-align: center;
+    text-shadow: 4px 7px 12px black;
+    margin-top: 26vh;
+    font-size: 7vw;
+    text-decoration: none;
+}
+
+.proSubTitle{
+    margin-top: 10vh;
+    text-align: center;
+    text-shadow: 4px 7px 12px black;
+}
+
+.cards{
+    background-color: #747474a1;
+    border-color: rgb(255, 255, 255);
+
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    text-align: center;
+    border: 0.5px;
+    padding: 20px ;
+    border-style: solid;
+    width: 75%;
+    
+    border-radius: 20px ;
+
+    box-shadow: 4px 7px 10px black;
+
+}
+
+.cards:hover{
+    cursor: grab;
+    scale: 101%;
+    box-shadow: 2px 5px 14px black;
+}
+
+.cards img{
+    border-radius: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardsSubTitle{
+    margin-top: 2vh;
+    font-size: x-large;
+    color: rgb(236, 235, 235);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cardsDescription{
+    color: rgb(231, 231, 231);
+    text-align: center;
+}

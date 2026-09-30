@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-
+import "./nAvailable.css";
 
 export function NotAvailable() {
     const navigate = useNavigate();

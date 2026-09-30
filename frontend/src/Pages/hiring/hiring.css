@@ -1,0 +1,10 @@
+/* ------------------- hiring ---------------------- */
+
+.hiring{
+    background-color: black;
+    background-image: url("/background4.jpg");
+    min-height: 100vh;
+    background-size: 100% 100%;   /* étire sans jamais rogner */
+    background-repeat: no-repeat;
+    height: 3200px;
+}

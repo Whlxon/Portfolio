@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "./skills.css";
 
 export function Skills(){
     const navigate = useNavigate();
@@ -12,7 +13,7 @@ export function Skills(){
                         <td>
                         <button className="projet" onClick={()=>{navigate('/')}}>Projects</button>
                         <button className="skillB" onClick={()=>{navigate('/skills')}}>Skills</button>
-                        <button className="hire" onClick={()=>{navigate('/notAvailable')}}>Hiring ? </button>
+                        <button className="hire" onClick={()=>{navigate('/hiring')}}>Hiring ? </button>
                         <button className="contact" onClick={()=>{navigate('/notAvailable')}}>Contact me</button>
                         </td>          
                     </table>
