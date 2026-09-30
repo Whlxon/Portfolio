@@ -8,3 +8,18 @@
     background-repeat: no-repeat;
     height: 3200px;
 }
+
+.cvMe{
+    text-align: left;
+
+    margin-top: 12vh;
+    margin-left: 10vw;
+
+    width: 10vw;
+ 
+    border-radius: 10000px;
+}
+
+.cvName{
+    
+}

@@ -20,7 +20,15 @@ export function Hiring(){
                         </td>          
                     </table>
                 </div>
-
+                
+                <tr>
+                    <td>
+                        <img className="cvMe" src="/me_big.png" alt="" />
+                    </td>   
+                    <td>
+                        <h1 className="cvName">Cyril Houppertz</h1>
+                    </td>
+                </tr>
 
             </div>
         </>
