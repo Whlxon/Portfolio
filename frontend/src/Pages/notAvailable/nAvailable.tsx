@@ -8,7 +8,7 @@ export function NotAvailable() {
         <>
             <div className="notAv">
 
-                <button className="logoB" onClick={()=>{navigate('/')}}><img className="logo" src="public/logo.png" alt="" /></button>
+                <button className="logoB" onClick={()=>{navigate('/')}}><img className="logo" src="/logo/logo.png" alt="" /></button>
                 <div className="acmenu">
                     <table>
                         <tr>
