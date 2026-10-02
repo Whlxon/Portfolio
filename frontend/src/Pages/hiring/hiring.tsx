@@ -23,12 +23,16 @@ export function Hiring(){
                 
                 <tr>
                     <td>
-                        <img className="cvMe" src="/me_big.png" alt="" />
+                        <img className="cvMe" src="/me.png" alt="" />
                     </td>   
                     <td>
                         <h1 className="cvName">Cyril Houppertz</h1>
                     </td>
                 </tr>
+
+                <h2 className="cvSubTitle">Experience:</h2>
+                <h3 className="cvYear">- 2017</h3>
+                <p className="cvText">As a 13 years old student I start beeing interest in how computer work and create my first project.</p>
 
             </div>
         </>
