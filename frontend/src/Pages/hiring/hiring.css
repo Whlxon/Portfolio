@@ -9,10 +9,14 @@
     height: 3200px;
 }
 
+.cvSection{
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
 .cvMe{
     text-align: left;
 
-    margin-top: 12vh;
+    margin-top: 20vh;
     margin-left: 10vw;
 
     width: 10vw;
@@ -21,6 +25,13 @@
 }
 
 .cvName{
+    text-align: center;
+
+    margin-left: 4vw;
+    
+    margin-top: 26vh;
+
+
     text-shadow: 4px 7px 10px black;
 }
 
@@ -28,7 +39,7 @@
     color: white;
     font-size: xx-large;
     text-decoration: underline;
-    text-shadow: 4px 7px 10px black;
+    text-shadow: 4px 7px 6px black;
 
     margin-left: 17vw;
     margin-top: 20vh;
@@ -36,12 +47,36 @@
 
 .cvYear{
     color: white;
-    text-shadow: 4px 7px 10px black;
+    text-shadow: 4px 7px 6px black;
     
-    margin-top: 5vh;
+    margin-top: 7vh;
     margin-left: 14vw;
 }
 
-.cvText{
+.hiring tr{
+    display: flex;
+    text-shadow: 4px 7px 6px black;
     
+}
+
+.cvText{
+    margin-left: 18vw;
+    margin-right: 18vw;
+    text-align: left;
+    color: white;
+    text-shadow: 4px 7px 10px black;
+}
+
+.cvSoftSkillsTab{
+    margin-top: 14vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cvSoftSkills{
+    color: white;
+    width: 12vw;
+    text-align: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
